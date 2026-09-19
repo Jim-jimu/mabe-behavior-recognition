@@ -16,3 +16,12 @@ outputs/
 *.zip
 submission.csv
 oof_predictions.csv
+*.pkl
+*.npy
+*.npz
+*.whl
+*.log
+.kaggle/
+checkpoints/
+kaggle_outputs/
+training-cache/

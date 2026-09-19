@@ -1,0 +1,14 @@
+{
+  "task": "9/pair/sniff",
+  "video_id": 2054411054,
+  "agent_id": "mouse1",
+  "target_id": "mouse2",
+  "fold_zero_based": 3,
+  "fps": 120.0,
+  "start_frame": 25957,
+  "stop_frame": 36757,
+  "threshold": 0.21,
+  "display": "Unsmoothed OOF probabilities and binary threshold decisions",
+  "source_sha256": "058f581f201bb6d218f8f16f60f47e0c59fb26a49e35ffbeebe40e04d32996b1",
+  "selection": "Illustrative 90-second window ending after the longest annotated sniff episode in video 2054411054; not an aggregate benchmark."
+}

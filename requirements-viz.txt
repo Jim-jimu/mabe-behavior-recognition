@@ -1,0 +1,6 @@
+# Rendering only: no training data or model download is required for the demo.
+numpy==1.26.4
+pandas==2.2.3
+matplotlib>=3.8,<3.11
+contourpy<1.4
+pyarrow==19.0.1

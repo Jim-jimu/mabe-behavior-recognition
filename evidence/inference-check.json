@@ -1,0 +1,77 @@
+{
+  "status": "passed",
+  "verified_at": "2026-09-19T10:57:10.039275+00:00",
+  "checkpoint": "dadfawf/mabe-auto-20260916a-025",
+  "inference_notebook": "dadfawf/mabe-final-checkpoint-inference-verification",
+  "inference_version": 2,
+  "model_tasks": 84,
+  "fold_models": 420,
+  "source_file_checksums_verified": 420,
+  "visible_test_videos": 1,
+  "behavior_combinations": 76,
+  "prediction_rows": 943,
+  "prediction_records": 16,
+  "probabilities_compared": 1400148,
+  "max_probability_difference": 0.008203168360981117,
+  "probability_differences_above_1e_12": [
+    {
+      "file": "probabilities-438887472-mouse1-mouse2.parquet",
+      "frame": 10654,
+      "action": "submit",
+      "cloud": 4.0774884183199103e-07,
+      "local": 3.9329774297732077e-07,
+      "absolute_difference": 1.4451098854670259e-08,
+      "threshold": 0.05
+    },
+    {
+      "file": "probabilities-438887472-mouse2-mouse1.parquet",
+      "frame": 10654,
+      "action": "submit",
+      "cloud": 6.196232510637503e-07,
+      "local": 5.953361696316482e-07,
+      "absolute_difference": 2.4287081432102066e-08,
+      "threshold": 0.05
+    },
+    {
+      "file": "probabilities-438887472-mouse3-self.parquet",
+      "frame": 6553,
+      "action": "rear",
+      "cloud": 0.0011370588374929392,
+      "local": 0.0011620976857130518,
+      "absolute_difference": 2.503884822011265e-05,
+      "threshold": 0.28
+    },
+    {
+      "file": "probabilities-438887472-mouse4-self.parquet",
+      "frame": 5192,
+      "action": "rear",
+      "cloud": 0.0104169332647697,
+      "local": 0.010312951628558466,
+      "absolute_difference": 0.00010398163621123425,
+      "threshold": 0.28
+    },
+    {
+      "file": "probabilities-438887472-mouse4-self.parquet",
+      "frame": 10631,
+      "action": "rear",
+      "cloud": 0.5428899155271283,
+      "local": 0.5510930838881094,
+      "absolute_difference": 0.008203168360981117,
+      "threshold": 0.28
+    },
+    {
+      "file": "probabilities-438887472-mouse4-self.parquet",
+      "frame": 12088,
+      "action": "rear",
+      "cloud": 0.02202225374989409,
+      "local": 0.021857978563991545,
+      "absolute_difference": 0.00016427518590254528,
+      "threshold": 0.28
+    }
+  ],
+  "all_threshold_decisions_identical": true,
+  "csv_byte_identical": true,
+  "submission_sha256": "ef492a14fcc3425ab75a7b05e9d8611fbcd696af3e3efcb99af4777b69c03887",
+  "boundary_regression_tests": 6,
+  "scope": "Cross-platform verification on the official visible test set; independent of the hidden-test leaderboard evaluation."
+}

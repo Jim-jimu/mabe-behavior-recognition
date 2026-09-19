@@ -1,0 +1,26 @@
+{
+  "competition": "MABe Challenge - Social Action Recognition in Mice",
+  "metric": "MABe F Beta",
+  "evaluation": "Kaggle late submission (after the competition deadline)",
+  "submission_id": 56357157,
+  "submitted_at_utc": "2026-09-19 11:14:52.273000",
+  "status": "COMPLETE",
+  "public_score": 0.49911,
+  "private_score": 0.48777,
+  "notebook_url": "https://www.kaggle.com/code/dadfawf/mabe-fold555-offline-submission?scriptVersionId=351047060",
+  "notebook_version": 1,
+  "script_version_id": 351047060,
+  "retrieved_via": "Kaggle API competition_submissions",
+  "retrieved_at_utc": "2026-09-19",
+  "checkpoint_tasks": 84,
+  "folds_per_task": 5,
+  "fold_models": 420,
+  "submission_notebook_sha256": "e891818e2bec2534059788753e265a9a6ac125923935a6d373a0b430630f6d6b",
+  "source_sha256": {
+    "submit_fold555.py": "d85768789d3c1be2cf5fbf091c4f4885a780ac07a96a16c58deca5885a811e14",
+    "train_fold555_disk_safe.py": "d83c3f9b1bf34ac18aee0386d8c47e934a268a3730ef812707dab084616da2bc",
+    "infer_fold555.py": "2b9394a7917a289880d294952f31a0b71830a31907978142b6c0ec8d2eccb0f2"
+  },
+  "training_checkpoint_source_sha256": "ca5a2abdd90afe9a23c779a110202a52dc5663c8b55d610100f8417e1df2dd1d",
+  "training_source_normalization": "Trailing whitespace removed; Python AST unchanged from the trained checkpoint source."
+}
