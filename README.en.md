@@ -17,17 +17,9 @@ The complete pipeline covers **36 behaviors, 9 keypoint configurations, and 84 b
 The central idea is to organize keypoint geometry into behavior-oriented representations: **decompose individual motion, preserve interaction direction, align temporal scales, and learn a decision boundary for each behavior.**
 
 <p align="center">
-  <strong>Pose trajectories + video metadata</strong><br>
-  ↓<br>
-  Physical-scale alignment · Bounded gap filling + missingness<br>
-  ↓<br>
-  Head–body motion · Directed interactions · Temporal context<br>
-  ↓<br>
-  Models per configuration and behavior · Video-grouped five-fold LightGBM<br>
-  ↓<br>
-  Fold averaging · Behavior competition · Behavior thresholds<br>
-  ↓<br>
-  <strong>Agent · Target · Behavior · Start / Stop frames</strong>
+  <a href="assets/readme/method-framework.png">
+    <img src="assets/readme/method-framework.png" width="100%" alt="MABe method framework: pose and individual/pair interaction features, video-grouped five-fold LightGBM with OOF threshold selection, and behavior-event inference">
+  </a>
 </p>
 
 ### 1. Head–body motion decomposition

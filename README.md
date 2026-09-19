@@ -17,17 +17,9 @@
 核心思路是把关键点的几何变化组织成具有行为含义的表示：**分解个体运动、刻画交互方向、统一时间尺度，再按行为学习决策边界。**
 
 <p align="center">
-  <strong>关键点轨迹 + 视频元数据</strong><br>
-  ↓<br>
-  物理尺度统一 · 有界缺失填充与缺失特征<br>
-  ↓<br>
-  头身运动 · 有向交互 · 多尺度时间上下文<br>
-  ↓<br>
-  按配置与行为建模 · 视频分组五折 LightGBM<br>
-  ↓<br>
-  五折概率平均 · 行为竞争 · 行为阈值<br>
-  ↓<br>
-  <strong>施动者 · 目标 · 行为 · 起止帧</strong>
+  <a href="assets/readme/method-framework.png">
+    <img src="assets/readme/method-framework.png" width="100%" alt="MABe 方法框架：姿态输入与个体/双鼠交互特征、视频分组五折 LightGBM 与 OOF 阈值优化、行为事件推理">
+  </a>
 </p>
 
 ### 1. 头身运动解耦：描述动作如何发生
